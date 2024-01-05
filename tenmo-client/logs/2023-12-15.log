@@ -1,0 +1,23 @@
+2023-12-15T10:32:31.970603 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T10:33:05.616697 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T10:33:37.057488 I/O error on POST request for "http://localhost:8080/register": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T10:33:55.820716 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T10:42:19.301326 401 : [no body]
+2023-12-15T10:42:58.006637 401 : [no body]
+2023-12-15T10:44:02.340873 405 : [{"timestamp":"2023-12-15T17:44:02.337+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/account/transfer"}]
+2023-12-15T10:44:29.916371 401 : [no body]
+2023-12-15T10:47:28.830898 401 : [no body]
+2023-12-15T10:48:48.317929 405 : [{"timestamp":"2023-12-15T17:48:48.298+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/account/transfer"}]
+2023-12-15T10:50:48.634034 405 : [{"timestamp":"2023-12-15T17:50:48.613+00:00","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/account/transfer"}]
+2023-12-15T18:03:40.993487 500 : [{"timestamp":"2023-12-16T01:03:40.983+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (709 bytes)]
+2023-12-15T18:06:59.761831 500 : [{"timestamp":"2023-12-16T01:06:59.757+00:00","status":500,"error":"Internal Server Error","message":"PreparedStatementCallback; SQL [INSERT INTO transfer (transfer_type_id, transfer_status_id, account... (709 bytes)]
+2023-12-15T19:27:23.546636 I/O error on POST request for "http://localhost:8080/login": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T19:27:39.555503 I/O error on POST request for "http://localhost:8080/register": Connection refused; nested exception is java.net.ConnectException: Connection refused
+2023-12-15T19:29:06.265415 401 : [no body]
+2023-12-15T22:16:06.909055 401 : [no body]
+2023-12-15T22:40:30.587422 500 : [{"timestamp":"2023-12-16T05:40:30.570+00:00","status":500,"error":"Internal Server Error","message":"Creating transfer failed.","path":"/transfers"}]
+2023-12-15T22:59:43.635726 500 : [{"timestamp":"2023-12-16T05:59:43.625+00:00","status":500,"error":"Internal Server Error","message":"Creating transfer failed.","path":"/transfers"}]
+2023-12-15T23:00:49.163891 500 : [{"timestamp":"2023-12-16T06:00:49.161+00:00","status":500,"error":"Internal Server Error","message":"Creating transfer failed.","path":"/transfers"}]
+2023-12-15T23:01:23.592429 500 : [{"timestamp":"2023-12-16T06:01:23.580+00:00","status":500,"error":"Internal Server Error","message":"Creating transfer failed.","path":"/transfers"}]
+2023-12-15T23:08:56.463292 401 : [no body]
+2023-12-15T23:12:56.135875 401 : [no body]

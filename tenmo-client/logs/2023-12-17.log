@@ -1,0 +1,5 @@
+2023-12-17T08:13:10.551724 404 : [{"timestamp":"2023-12-17T15:13:10.538+00:00","status":404,"error":"Not Found","message":"No message available","path":"/accountuser/account_id"}]
+2023-12-17T08:39:14.072765 400 : [{"timestamp":"2023-12-17T15:39:14.049+00:00","status":400,"error":"Bad Request","message":"Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: \"account_id\"","path":"/account/user/account_id"}]
+2023-12-17T16:37:50.13944 401 : [no body]
+2023-12-17T18:51:02.003037 500 : [{"timestamp":"2023-12-18T01:51:01.992+00:00","status":500,"error":"Internal Server Error","message":"Optional int parameter 'accountId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.","path":"/account/balance"}]
+2023-12-17T19:51:36.176495 500 : [{"timestamp":"2023-12-18T02:51:36.168+00:00","status":500,"error":"Internal Server Error","message":"Missing URI template variable 'principal' for method parameter of type Principal","path":"/account/balance"}]

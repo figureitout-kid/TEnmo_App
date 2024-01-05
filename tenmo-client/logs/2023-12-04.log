@@ -1,0 +1,2 @@
+2023-12-04T17:44:43.206172 404 : [{"timestamp":"2023-12-05T00:44:43.051+00:00","status":404,"error":"Not Found","message":"No message available","path":"/register"}]
+2023-12-04T17:44:51.690273 404 : [{"timestamp":"2023-12-05T00:44:51.684+00:00","status":404,"error":"Not Found","message":"No message available","path":"/login"}]
